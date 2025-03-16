@@ -286,7 +286,7 @@ def trace_steinberg_p(n, s, alpha, p):
     return sum
 
 n = 3
-s = 1
+s = 2
 alpha = 1
 for p in ordered_partitions(n):
     print(p, trace_steinberg_p(n, s, alpha, p))
